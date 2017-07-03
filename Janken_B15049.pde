@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Board board;
 Game game;
 void setup() {
@@ -21,11 +20,3 @@ void mouseReleased() {
   } else if (mouseX>300 && mouseX <= 450 && mouseY >=0 && mouseY <= 150) {
     board.updateResultArea(game.getJankenResult("Pa"));
   }
-=======
-void setup(){
-  surface.setSize(450,300);
-}
-
-void draw(){
->>>>>>> parent of c474e75... じゃんけんアイコンの追加
-}
